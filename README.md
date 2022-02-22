@@ -1,10 +1,15 @@
-# {Insert Repository Name Here}
+# ACAN-Research-Spike-Transcript-Transfers
 
-{Insert project information here}
+The Research Spike was a MSDF-funded project with the goal of streamlining transcript
+and college readiness data sharing among LEAs and IHEs. There were two components to
+this project. First, we developed a draft transcript JSON standard, including ODS
+mapping of the data elements, and a transcript API based on composite technology.
+Second, we designed a user experience that supports transcript requestors,
+registrars, and transcript recipient user personas.
 
 ## Legal Information
 
-Copyright (c) 2021 Ed-Fi Alliance, LLC and contributors.
+Copyright (c) 2022 Ed-Fi Alliance, LLC and contributors.
 
 Licensed under the [Apache License, Version 2.0](LICENSE) (the "License").
 
