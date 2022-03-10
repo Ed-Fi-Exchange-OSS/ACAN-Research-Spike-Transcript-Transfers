@@ -1,0 +1,568 @@
+[
+    {
+      "resourceId": "b80885c2212f4b2b87ab54a8ce13101e",
+      "studentUniqueId": "604837",
+      "firstName": "Glenn",
+      "middleName": "Max",
+      "lastSurname": "Gross",
+      "birthDate": "2001-12-19T00:00:00",
+      "identificationCodes": [
+        {
+          "identificationCode": "837",
+          "studentIdentificationSystemDescriptor": "uri://ed-fi.org/StudentIdentificationSystemDescriptor#Local"
+        },
+        {
+          "identificationCode": "1382712733",
+          "studentIdentificationSystemDescriptor": "uri://ed-fi.org/StudentIdentificationSystemDescriptor#SSN"
+        }
+      ],
+      "studentAddresses": [
+        {
+          "addressType": "uri://ed-fi.org/AddressTypeDescriptor#Home",
+          "streetNumberName": "81 White Clarendon Way",
+          "city": "Grand Bend",
+          "state": "uri://ed-fi.org/StateAbbreviationDescriptor#TX",
+          "postalCode": "78834",
+          "nameOfCounty": "WILLISTON"
+        }
+      ],
+      "studentPhones": [
+        {
+          "telephoneNumber": "(950) 014 6151",
+          "telephoneNumberType": "uri://ed-fi.org/TelephoneNumberTypeDescriptor#Other"
+        },
+        {
+          "telephoneNumber": "(950) 098 0909",
+          "telephoneNumberType": "uri://ed-fi.org/TelephoneNumberTypeDescriptor#Home"
+        }
+      ],
+      "demographics": [
+        {
+          "gender": "uri://ed-fi.org/SexDescriptor#Male",
+          "hispanicLatinoEthnicity": true,
+          "englishLearnerStatus": "uri://ed-fi.org/LimitedEnglishProficiencyDescriptor#Limited",
+          "races": [
+            {
+              "race": "uri://ed-fi.org/RaceDescriptor#Native Hawaiian - Pacific Islander"
+            }
+          ]
+        }
+      ],
+      "guardians": [
+        {
+          "relationToStudent": "uri://ed-fi.org/RelationDescriptor#Mother",
+          "livesWith": true,
+          "firstName": "Carissa",
+          "lastSurname": "Gross",
+          "guardianPhones": [
+            {
+              "telephoneNumber": "(950) 368 2540",
+              "telephoneNumberTypeDescriptor": "uri://ed-fi.org/TelephoneNumberTypeDescriptor#Unlisted"
+            }
+          ]
+        },
+        {
+          "relationToStudent": "uri://ed-fi.org/RelationDescriptor#Father",
+          "livesWith": true,
+          "firstName": "Jesus",
+          "lastSurname": "Gross",
+          "guardianPhones": [
+            {
+              "telephoneNumber": "(950) 242 9951",
+              "telephoneNumberTypeDescriptor": "uri://ed-fi.org/TelephoneNumberTypeDescriptor#Home"
+            },
+            {
+              "telephoneNumber": "(950) 262 7797",
+              "telephoneNumberTypeDescriptor": "uri://ed-fi.org/TelephoneNumberTypeDescriptor#Emergency 2"
+            }
+          ]
+        }
+      ],
+      "studentAcademicRecords": [
+        {
+          "schoolYear": 2012,
+          "term": "uri://ed-fi.org/TermDescriptor#Fall Semester",
+          "cumulativeEarnedCredits": 7,
+          "gradePointAverages": [
+            {
+              "gradePointAverageType": "uri://ed-fi.org/GradePointAverageTypeDescriptor#Unweighted",
+              "gradePointAverageValue": 4
+            }
+          ],
+          "recognitions": [
+            {
+              "achievementCategoryDescriptor": "uri://ed-fi.org/AchievementCategoryDescriptor#Academic Honor",
+              "achievementTitle": "SEMICONDUCTOR MANUFACTURING TECHNOLOGY OPERATOR CERTIFICATE",
+              "awardMetDate": "2019-06-01T00:00:00"
+            }
+          ],
+          "rankings": [
+            {
+              "classRank": 15,
+              "classRankingDate": "2019-06-01T00:00:00",
+              "totalNumberInClass": 30
+            }
+          ],
+          "courseTranscript": [
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "C",
+              "finalNumericGradeEarned": 74,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "ART-05",
+              "courseTitle": "Art, Grade 5",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Fine and Performing Arts",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            },
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "D",
+              "finalNumericGradeEarned": 64,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "ELA-05",
+              "courseTitle": "English Language Arts, Grade 5",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#English Language Arts",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            },
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "B",
+              "finalNumericGradeEarned": 88,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "MATH-05",
+              "courseTitle": "Mathematics, Grade 5",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            },
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "D",
+              "finalNumericGradeEarned": 68,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "MUS-05",
+              "courseTitle": "Music, Grade 5",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Fine and Performing Arts",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            },
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "A",
+              "finalNumericGradeEarned": 93,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "PE-05",
+              "courseTitle": "Physical Education, Grades 1-6",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Physical, Health, and Safety Education",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            },
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "B",
+              "finalNumericGradeEarned": 89,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "SCI-05",
+              "courseTitle": "Science, Grade 5",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Science",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            },
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "C",
+              "finalNumericGradeEarned": 74,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "SS-05",
+              "courseTitle": "Social Studies, Grade 5",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Social Studies",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            }
+          ],
+          "graduationPlanType": [
+            {
+              "graduationPlanType": "uri://ed-fi.org/GraduationPlanTypeDescriptor#Minimum"
+            }
+          ]
+        },
+        {
+          "schoolYear": 2012,
+          "term": "uri://ed-fi.org/TermDescriptor#Spring Semester",
+          "cumulativeEarnedCredits": 13,
+          "gradePointAverages": [
+            {
+              "gradePointAverageType": "uri://ed-fi.org/GradePointAverageTypeDescriptor#Unweighted",
+              "gradePointAverageValue": 3.7143
+            }
+          ],
+          "recognitions": [
+            {
+              "achievementCategoryDescriptor": "uri://ed-fi.org/AchievementCategoryDescriptor#Certificate Earned",
+              "achievementTitle": "WATER RESOURCE SCIENCE CERTIFICATE",
+              "awardMetDate": "2019-06-01T00:00:00"
+            }
+          ],
+          "rankings": [
+            {
+              "classRank": 6,
+              "classRankingDate": "2019-06-01T00:00:00",
+              "totalNumberInClass": 30
+            }
+          ],
+          "courseTranscript": [
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 0,
+              "finalLetterGradeEarned": "F",
+              "finalNumericGradeEarned": 43,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Fail",
+              "courseCode": "SCI-05",
+              "courseTitle": "Science, Grade 5",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Science",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            },
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "A",
+              "finalNumericGradeEarned": 94,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "ART-05",
+              "courseTitle": "Art, Grade 5",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Fine and Performing Arts",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            },
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "B",
+              "finalNumericGradeEarned": 85,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "ELA-05",
+              "courseTitle": "English Language Arts, Grade 5",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#English Language Arts",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            },
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "C",
+              "finalNumericGradeEarned": 71,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "MATH-05",
+              "courseTitle": "Mathematics, Grade 5",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            },
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "B",
+              "finalNumericGradeEarned": 80,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "MUS-05",
+              "courseTitle": "Music, Grade 5",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Fine and Performing Arts",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            },
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "B",
+              "finalNumericGradeEarned": 88,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "PE-05",
+              "courseTitle": "Physical Education, Grades 1-6",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Physical, Health, and Safety Education",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            },
+            {
+              "attemptedCredits": 1,
+              "earnedCredits": 1,
+              "finalLetterGradeEarned": "C",
+              "finalNumericGradeEarned": 75,
+              "methodCreditEarnedDescriptor": "uri://ed-fi.org/MethodCreditEarnedDescriptor#Classroom credit",
+              "whenTakenGradeLevel": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+              "courseAttemptResult": "uri://ed-fi.org/CourseAttemptResultDescriptor#Pass",
+              "courseCode": "SS-05",
+              "courseTitle": "Social Studies, Grade 5",
+              "academicSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Social Studies",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "3100500",
+                  "courseIdentificationSystemDescriptor": "uri://ed-fi.org/CourseIdentificationSystemDescriptor#State course code"
+                }
+              ]
+            }
+          ],
+          "graduationPlanType": [
+            {
+              "graduationPlanType": "uri://ed-fi.org/GraduationPlanTypeDescriptor#Minimum"
+            }
+          ]
+        }
+      ],
+      "school": [
+        {
+          "schoolId": 255901107,
+          "schoolName": "Grand Bend Elementary School",
+          "districtId": 255901,
+          "districtName": "Grand Bend ISD",
+          "schoolPhone": [
+            {
+              "telephoneNumber": "(950) 325-1976",
+              "telephoneNumberType": "uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor#Fax"
+            },
+            {
+              "telephoneNumber": "(950) 367-1346",
+              "telephoneNumberType": "uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor#Main"
+            }
+          ],
+          "schoolAddress": [
+            {
+              "addressType": "uri://ed-fi.org/AddressTypeDescriptor#Mailing",
+              "streetNumberName": "P.O. Box 9991",
+              "city": "Grand Bend",
+              "state": "uri://ed-fi.org/StateAbbreviationDescriptor#TX",
+              "postalCode": "73334-9991",
+              "nameOfCounty": "Williston"
+            },
+            {
+              "addressType": "uri://ed-fi.org/AddressTypeDescriptor#Physical",
+              "streetNumberName": "52 Halsey Ave.",
+              "city": "Grand Bend",
+              "state": "uri://ed-fi.org/StateAbbreviationDescriptor#TX",
+              "postalCode": "73334",
+              "nameOfCounty": "Williston"
+            }
+          ]
+        }
+      ],
+      "studentAssessments": [
+        {
+          "administrationDate": "2010-04-01T16:00:00Z",
+          "whenAssessedGradeLevelDescriptor": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+          "assessmentTitle": "State Assessment",
+          "assessmentCategory": "uri://ed-fi.org/AssessmentCategoryDescriptor#State summative assessment 3-8 general",
+          "scoreResults": [
+            {
+              "assessmentReportingMethodDescriptor": "uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score",
+              "result": "25"
+            },
+            {
+              "assessmentReportingMethodDescriptor": "uri://ed-fi.org/AssessmentReportingMethodDescriptor#Vertical score",
+              "result": "578"
+            }
+          ],
+          "objectiveAssessments": [
+            {
+              "identificationCode": "State Assessment_Mathematics5-1",
+              "objectiveAssessments": [
+                {
+                  "objectiveAssessmentScore": "6"
+                }
+              ]
+            },
+            {
+              "identificationCode": "State Assessment_Mathematics5-2",
+              "objectiveAssessments": [
+                {
+                  "objectiveAssessmentScore": "4"
+                }
+              ]
+            },
+            {
+              "identificationCode": "State Assessment_Mathematics5-3",
+              "objectiveAssessments": [
+                {
+                  "objectiveAssessmentScore": "3"
+                }
+              ]
+            },
+            {
+              "identificationCode": "State Assessment_Mathematics5-4",
+              "objectiveAssessments": [
+                {
+                  "objectiveAssessmentScore": "6"
+                }
+              ]
+            },
+            {
+              "identificationCode": "State Assessment_Mathematics5-5",
+              "objectiveAssessments": [
+                {
+                  "objectiveAssessmentScore": "8"
+                }
+              ]
+            },
+            {
+              "identificationCode": "State Assessment_Mathematics5-6",
+              "objectiveAssessments": [
+                {
+                  "objectiveAssessmentScore": "4"
+                }
+              ]
+            }
+          ],
+          "assesmentSubject": [
+            {
+              "assesmentSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Mathematics"
+            }
+          ]
+        },
+        {
+          "administrationDate": "2010-04-01T16:00:00Z",
+          "whenAssessedGradeLevelDescriptor": "uri://ed-fi.org/GradeLevelDescriptor#Fifth grade",
+          "assessmentTitle": "State Assessment",
+          "assessmentCategory": "uri://ed-fi.org/AssessmentCategoryDescriptor#State summative assessment 3-8 general",
+          "scoreResults": [
+            {
+              "assessmentReportingMethodDescriptor": "uri://ed-fi.org/AssessmentReportingMethodDescriptor#Raw score",
+              "result": "32"
+            },
+            {
+              "assessmentReportingMethodDescriptor": "uri://ed-fi.org/AssessmentReportingMethodDescriptor#Vertical score",
+              "result": "632"
+            },
+            {
+              "assessmentReportingMethodDescriptor": "uri://ed-fi.org/AssessmentReportingMethodDescriptor#Lexile Measure",
+              "result": "825"
+            }
+          ],
+          "objectiveAssessments": [
+            {
+              "identificationCode": "State Assessment_Reading5-1",
+              "objectiveAssessments": [
+                {
+                  "objectiveAssessmentScore": "12"
+                }
+              ]
+            },
+            {
+              "identificationCode": "State Assessment_Reading5-2",
+              "objectiveAssessments": [
+                {
+                  "objectiveAssessmentScore": "4"
+                }
+              ]
+            },
+            {
+              "identificationCode": "State Assessment_Reading5-3",
+              "objectiveAssessments": [
+                {
+                  "objectiveAssessmentScore": "7"
+                }
+              ]
+            },
+            {
+              "identificationCode": "State Assessment_Reading5-4",
+              "objectiveAssessments": [
+                {
+                  "objectiveAssessmentScore": "9"
+                }
+              ]
+            }
+          ],
+          "assesmentSubject": [
+            {
+              "assesmentSubject": "uri://ed-fi.org/AcademicSubjectDescriptor#Reading"
+            }
+          ]
+        }
+      ]
+    }
+  ]

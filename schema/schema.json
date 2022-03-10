@@ -1,0 +1,159 @@
+{
+    "student": {
+      "firstName": "sting",
+      "middleName": "string",
+      "lastSurname": "string",
+      "birthDate": "string",
+      "studentUniqueId": "string",
+      "identificationCodes": [
+        {
+          "identificationCode": "char",
+          "studentIdentificationSystem": "enum"
+        }
+      ],
+      "demographics": [
+        {
+          "gender": "enum",
+          "hispanicLatinoEthnicity": "boolean",
+          "races": [
+            {
+              "race": "enum"
+            }
+          ],
+          "englishLearnerStatus": "enum"
+        }
+      ],
+      "guardians": [
+        {
+          "relationToStudent": "enum",
+          "livesWith": "boolean",
+          "firstName": "string",
+          "lastSurname": "string",
+          "guardianPhones": [
+            {
+              "telephoneNumber": "phone",
+              "telephoneNumberType": "enum"
+            }
+          ]
+        }
+      ],
+      "studentAddresses": [
+        {
+          "addressType": "enum",
+          "streetNumberName": "string",
+          "city": "string",
+          "state": "enum",
+          "postalCode": "string",
+          "nameOfCounty": "string"
+        }
+      ],
+      "studentPhones": [
+        {
+          "telephoneNumber": "phone",
+          "telephoneNumberType": "enum"
+        }
+      ],
+      "studentAcademicRecords": [
+        {
+          "gradeLevel": "enum",
+          "schoolYear": "char",
+          "term": "enum",
+          "classRank": "integer",
+          "classRankingDate": "string",
+          "totalNumberInClass": "integer",
+          "graduationDate": "string",
+          "graduationPlanType": "string",
+          "classQuartile": "number",
+          "cumulativeEarnedCredits": "number",
+          "certificateOfCourseworkCompletion": "TBD",
+          "gradePointAverages": [
+            {
+              "gradePointAverageType": "enum",
+              "gradePointAverageValue": "number"
+            }
+          ],
+          "courseTranscript": [
+            {
+              "attemptedCredits": "number",
+              "earnedCredits": "number",
+              "passFailCredit": "number",
+              "finalLetterGradeEarned": "enum",
+              "finalNumericGradeEarned": "number",
+              "courseCode": "string",
+              "courseTitle": "string",
+              "academicSubject": "string",
+              "alternativeCourseIdentificationCodes": [
+                {
+                  "identificationCode": "number",
+                  "courseIdentificationSystemDescriptor": "enum"
+                }
+              ],
+              "courseAttemptResultDescriptor": "enum",
+              "courseRepeatCode": "enum",
+              "whenTakenGradeLevel": "enum"
+            }
+          ],
+          "recognitions": [
+            {
+              "AchievementCategory": "enum",
+              "achievementTitle": "string",
+              "achievementGrade": "string",
+              "awardMetDate": "string"
+            }
+          ]
+        }
+      ],
+      "school": {
+        "schoolId": "string",
+        "schoolName": "string",
+        "districtId": "string",
+        "districtName": "string",
+        "schoolPhone": [
+          {
+            "telephoneNumber": "phone",
+            "telephoneNumberType": "enum"
+          }
+        ],
+        "schoolAddress": [
+          {
+            "addressType": "enum",
+            "streetNumberName": "string",
+            "city": "string",
+            "state": "enum",
+            "postalCode": "char",
+            "nameOfCounty": "string"
+          }
+        ]
+      },
+      "programs": [
+        {
+          "programType": "enum",
+          "programName": "string",
+          "beginDate": "string",
+          "endDate": "string",
+          "reasonExited": "enum"
+        }
+      ],
+      "studentAssessments": [
+        {
+          "administrationDate": "string",
+          "assessmentSubject": "enum",
+          "assessmentCategory": "enum",
+          "assessmentTitle": "string",
+          "scoreResult": [
+            {
+              "AssessmentReportingMethodDescriptor": "string",
+              "Result": "number"
+            }
+          ],
+          "whenAssessedGradeLevel": "enum",
+          "objectiveAssessments": [
+            {
+              "objectiveAssessmentName": "string",
+              "objectiveAssessmentScore": "string"
+            }
+          ]
+        }
+      ]
+    }
+  }

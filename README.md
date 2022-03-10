@@ -7,6 +7,22 @@ mapping of the data elements, and a transcript API based on composite technology
 Second, we designed a user experience that supports transcript requestors,
 registrars, and transcript recipient user personas.
 
+
+# Folders
+
+## Composite
+
+This folder contains the composite file which can be deployed to Ed-Fi ODS to create a composite API
+
+## Output
+
+This folder contains a sample output of the composite
+
+## Schema
+
+This folder contains a JSONSchema-like file with fields and datatypes
+
+
 ## Legal Information
 
 Copyright (c) 2022 Ed-Fi Alliance, LLC and contributors.
