@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CompositeMetadata organizationCode="ACAN">
+  <Category displayName="Transcript" name="Transcript">
+    <Composites>
+      <Composite name="StudentTranscript">
+        <BaseResource name="StudentEducationOrganizationAssociation">
+          <ReferencedResource name="StudentReference" flatten="true">
+            <Property name="Id" displayName="ResourceId" />
+            <Property name="StudentUniqueId" />
+            <Property name="FirstName" />
+            <Property name="MiddleName" />
+            <Property name="LastSurname" />
+            <Property name="BirthDate" />
+            <Property name="studentUniqueId" />
+            <LinkedCollection name="GeneralStudentProgramAssociations" displayName="programs">
+              <Property name="ProgramName"></Property>
+              <Property name="ProgramTypeDescriptor"></Property>
+              <Property name="BeginDate"></Property>
+              <Property name="EndDate"></Property>
+              <Property name="ReasonExitedDescriptor"></Property>
+            </LinkedCollection>
+            <LinkedCollection name="StudentEducationOrganizationAssociations" displayName="demographics">
+              <Property name="SexDescriptor" displayName="gender" />
+              <Property name="HispanicLatinoEthnicity" />
+              <Property name="LimitedEnglishProficiencyDescriptor" displayName="englishLearnerStatus" />
+              <Collection name="StudentEducationOrganizationAssociationRaces" displayName="races">
+                <Property name="RaceDescriptor" displayName="race" />
+              </Collection>
+            </LinkedCollection>
+            <LinkedCollection name="StudentParentAssociations" displayName="guardians">
+              <Property name="RelationDescriptor" displayName="relationToStudent" />
+              <Property name="LivesWith" />
+              <ReferencedResource name="ParentReference" flatten="true">
+                <Property name="FirstName" />
+                <Property name="LastSurname" />
+                <Collection name="ParentTelephones" displayName="guardianPhones">
+                  <Property name="TelephoneNumber" />
+                  <Property name="TelephoneNumberTypeDescriptor" />
+                </Collection>
+              </ReferencedResource>
+            </LinkedCollection>
+            <LinkedCollection name="StudentAcademicRecords" displayName="studentAcademicRecords">
+              <Property name="SchoolYear" />
+              <Property name="TermDescriptor" displayName="term" />
+              <Property name="ProjectedGraduationDate" displayName="graduationDate" />
+              <Property name="CumulativeEarnedCredits" displayName="cumulativeEarnedCredits" />
+              <Collection name="StudentAcademicRecordGradePointAverages" displayName="gradePointAverages">
+                <Property name="GradePointAverageTypeDescriptor" displayName="gradePointAverageType" />
+                <Property name="GradePointAverageValue" displayName="gradePointAverageValue" />
+              </Collection>
+              <ReferencedResource name="StudentReference" flatten="true">
+                <LinkedCollection name="StudentSchoolAssociations" displayName="graduationPlanType">
+                  <ReferencedResource name="GraduationPlanReference" flatten="true">
+                    <Property name="GraduationPlanTypeDescriptor" displayName="graduationPlanType" />
+                  </ReferencedResource>
+                </LinkedCollection>
+              </ReferencedResource>
+              <LinkedCollection name="CourseTranscripts" displayName="courseTranscript">
+                <Property name="AttemptedCredits" />
+                <Property name="EarnedCredits" />
+                <Property name="FinalLetterGradeEarned" />
+                <Property name="FinalNumericGradeEarned" />
+                <Property name="MethodCreditEarnedDescriptor" />
+                <Property name="CourseRepeatCodeDescriptor" displayName="courseRepeatCode" />
+                <Property name="WhenTakenGradeLevelDescriptor" displayName="whenTakenGradeLevel" />
+                <Property name="CourseAttemptResultDescriptor" displayName="courseAttemptResult" />
+                <Collection name="CourseTranscriptAlternativeCourseIdentificationCodes" displayName="alternativeCourseIdentificationCodes">
+                  <Property name="IdentificationCode" />
+                  <Property name="CourseIdentificationSystemDescriptor" />
+                </Collection>
+                <ReferencedResource name="CourseReference" flatten="true">
+                  <Property name="CourseCode" />
+                  <Property name="CourseTitle" />
+                  <Property name="AcademicSubjectDescriptor" displayName="academicSubject"/> 
+                </ReferencedResource>
+              </LinkedCollection>
+              <Collection name="StudentAcademicRecordRecognitions" displayName="recognitions">
+                <Property name="AchievementCategoryDescriptor" displayName="achievementCategoryDescriptor" />
+                <Property name="AchievementTitle" />
+                <Property name="RecognitionAwardDate" displayName="awardMetDate" />
+              </Collection>
+              <EmbeddedObject name="StudentAcademicRecordClassRanking" displayName="rankings">
+                <Property name="ClassRank" />
+                <Property name="ClassRankingDate" />
+                <Property name="TotalNumberInClass" />
+              </EmbeddedObject>
+            </LinkedCollection>
+            <LinkedCollection name="StudentSchoolAssociations" displayName="school">
+              <ReferencedResource name="SchoolReference" flatten="true">
+                <Property name="SchoolId" />
+                <Property name="NameOfInstitution" displayName="schoolName" />
+                <ReferencedResource name="LocalEducationAgencyReference" flatten="true">
+                  <Property name="LocalEducationAgencyId" displayName="districtId" />
+                  <Property name="NameOfInstitution" displayName="districtName" />
+                </ReferencedResource>
+                <Collection name="EducationOrganizationInstitutionTelephones" displayName="schoolPhone">
+                  <Property name="TelephoneNumber" displayName="telephoneNumber" />
+                  <Property name="InstitutionTelephoneNumberTypeDescriptor" displayName="telephoneNumberType" />
+                </Collection>
+                <Collection name="EducationOrganizationAddresses" displayName="schoolAddress">
+                  <Property name="AddressTypeDescriptor" displayName="addressType" />
+                  <Property name="StreetNumberName" displayName="streetNumberName" />
+                  <Property name="City" displayName="city" />
+                  <Property name="StateAbbreviationDescriptor" displayName="state" />
+                  <Property name="PostalCode" displayName="postalCode" />
+                  <Property name="NameOfCounty" displayName="nameOfCounty" />
+                </Collection>
+              </ReferencedResource>
+            </LinkedCollection>
+            <LinkedCollection name="StudentAssessments" displayName="studentAssessments">
+              <ReferencedResource name="AssessmentReference" flatten="true">
+                <Property name="AssessmentTitle" />
+                <Property name="AssessmentCategoryDescriptor" displayName="assessmentCategory" />
+                <Collection name="AssessmentAcademicSubjects" displayName="assesmentSubject">
+                  <Property name="AcademicSubjectDescriptor" displayName="assesmentSubject" />
+                </Collection>
+              </ReferencedResource>
+              <Property name="AdministrationDate" />
+              <Property name="WhenAssessedGradeLevelDescriptor" />
+              <Collection name="StudentAssessmentScoreResults" displayName="scoreResults">
+                <Property name="AssessmentReportingMethodDescriptor" />
+                <Property name="Result" />
+              </Collection>
+              <Collection name="StudentAssessmentStudentObjectiveAssessments" displayName="objectiveAssessments">
+                <ReferencedResource name="ObjectiveAssessmentReference" flatten="true">
+                  <Property name="IdentificationCode" />
+                </ReferencedResource>
+                <Collection name="StudentAssessmentStudentObjectiveAssessmentScoreResults" displayName="objectiveAssessments">
+                  <Property name="Result" displayName="objectiveAssessmentScore" />
+                </Collection>
+              </Collection>
+            </LinkedCollection>
+            <LinkedCollection name="GeneralStudentProgramAssociations" displayName="xyz">
+              <Property name="ProgramName"></Property>
+              <Property name="ProgramTypeDescriptor"></Property>
+              <Property name="BeginDate"></Property>
+              <Property name="EndDate"></Property>
+              <Property name="ReasonExitedDescriptor"></Property>
+            </LinkedCollection>
+          </ReferencedResource>         
+          <Collection name="StudentEducationOrganizationAssociationStudentIdentificationCodes" displayName="identificationCodes">
+            <Property name="IdentificationCode" />
+            <Property name="StudentIdentificationSystemDescriptor" />
+          </Collection>          
+          <Collection name="StudentEducationOrganizationAssociationAddresses" displayName="studentAddresses">
+            <Property name="AddressTypeDescriptor" displayName="addressType" />
+            <Property name="StreetNumberName" displayName="streetNumberName" />
+            <Property name="City" displayName="city" />
+            <Property name="stateAbbreviationDescriptor" displayName="state" />
+            <Property name="PostalCode" displayName="postalCode" />
+            <Property name="NameOfCounty" displayName="nameOfCounty" />
+          </Collection>
+          <Collection name="StudentEducationOrganizationAssociationTelephones" displayName="studentPhones">
+            <Property name="TelephoneNumber" displayName="telephoneNumber" />
+            <Property name="TelephoneNumberTypeDescriptor" displayName="telephoneNumberType" />
+          </Collection>
+        </BaseResource>
+      </Composite>
+    </Composites>
+  </Category>
+</CompositeMetadata>
